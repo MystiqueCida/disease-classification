@@ -1,0 +1,6 @@
+pt_age,pt_gender,pt_status,APOE4,CDRSB,ADAS11,ADAS13,MMSE,RAVLT_Immediate,Ventricles,Hippocampus,Whole_Brain,Entorhinal,Mid_Temp
+69,Female,Divorced,0,0,5,7,29,48,13622,8315,1025130,4061,19923
+86,Male,Never married,1,1,15.33,23.33,29,24,72746,5268,962859,3105,16953
+73,Male,Married,0,1.5,6,10,29,42,63304,7145,1054870,4169,24475
+85,Female,Widowed,0,0,5,7,28,51,18757,6080,948684,4190,20076
+79,Male,Divorced,2,4,26,35,19,8,66933,4582,922646,2141,16888
