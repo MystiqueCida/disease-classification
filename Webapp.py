@@ -55,7 +55,7 @@ else:
 
 # Combines user input features with the entire dataset
 # This will be useful for the encoding phase
-health_status_raw = pd.read_csv('C:/Users/ORLUNWO PLACIDA/Documents/SCHOOL_IAUE/Dr Friday/alzhiemer Disease/PhD project Code/Project_PhD_WebApp/Project backup/CleanHealthData.csv')
+health_status_raw = pd.read_csv('CleanHealthData.csv')
 health_status = health_status_raw.drop(columns=['DX'])
 df = pd.concat([input_df,health_status],axis=0)
 
@@ -77,7 +77,7 @@ else:
     st.write(df)
 
 # Reads in saved classification model
-load_clf = pickle.load(open('C:/Users/ORLUNWO PLACIDA/Documents/SCHOOL_IAUE/Dr Friday/alzhiemer Disease/PhD project Code/Project_PhD_WebApp/Project backup/Adb_model_clf.pkl', 'rb'))
+load_clf = pickle.load(open('Adb_model_clf.pkl', 'rb'))
 
 # Apply model to make predictions
 prediction = load_clf.predict(df)
