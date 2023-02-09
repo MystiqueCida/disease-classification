@@ -3,6 +3,16 @@ import pandas as pd
 import numpy as np
 import pickle
 
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import BaggingClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import StackingClassifier
+from sklearn.ensemble import VotingClassifier
 
 st.write("""
 # Cognitive Prediction Application
