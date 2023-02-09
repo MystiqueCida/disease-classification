@@ -1,10 +1,11 @@
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import AdaBoostClassifier
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
 
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import AdaBoostClassifier
 
 st.write("""
 # Cognitive Prediction Application
