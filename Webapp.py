@@ -85,8 +85,8 @@ prediction_proba = load_clf.predict_proba(df)
 
 
 st.subheader('Predicted Cognitive Stage')
-penguins_species = np.array(['CN - Cognitive Normal','SMC - Significant Memory Concern','EMCI - Early Cognitive Impairment','LMCI - Late Cognitive Impairment','AD - Alzheimer Disease'])
-st.write(penguins_species[prediction])
+cognitive_stage = np.array(['CN - Cognitive Normal','SMC - Significant Memory Concern','EMCI - Early Cognitive Impairment','LMCI - Late Cognitive Impairment','AD - Alzheimer Disease'])
+st.write(cognitive_stage[prediction])
 
 st.subheader('Cognitive Stage Probability')
 st.write(prediction_proba)
