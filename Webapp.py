@@ -77,6 +77,8 @@ else:
     st.write(df)
 
 # Reads in saved classification model
+
+from sklearn.ensemble import AdaBoostClassifier
 load_clf = pickle.load(open('Adb_model_clf.pkl', 'rb'))
 
 # Apply model to make predictions
